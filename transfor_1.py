@@ -21,7 +21,6 @@ class vectorPrueba(LinearTransformationScene):
         self.add_moving_mobject(dot_2)
 
         matrix = rotation(-3*np.pi/2)
-
         self.apply_matrix(matrix)
         self.wait()
 
